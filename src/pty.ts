@@ -82,6 +82,10 @@ class Master implements ITerminalAddon {
     );
   }
 
+  sendText(text: string) {
+    this.ldisc.writeFromLower(stringToUtf8Bytes(text));
+  }
+  
   dispose(): void {
     this.disposables.forEach((d) => d.dispose());
     this.disposables.length = 0;
