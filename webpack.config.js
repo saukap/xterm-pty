@@ -25,7 +25,7 @@ module.exports = {
   mode: "production",
   plugins: [
     new DtsBundleWebpack({
-      name: "xterm-pty",
+      name: "@saukap/xterm-pty",
       main: "out/index.d.ts",
       baseDir: "out",
       out: "../index.d.ts",
