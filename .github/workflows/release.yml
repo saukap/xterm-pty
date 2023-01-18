@@ -18,7 +18,7 @@ jobs:
       - run: |
           echo @saukap:https://npm.pkg.github.com/ > out/.npmrc
           echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> out/.npmrc
-      - run: npm publish
+      - run: cp ../package.json . && npm publish
         working-directory: ./out
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
