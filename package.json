@@ -49,5 +49,8 @@
     "cooked mode",
     "emscripten"
   ],
-  "author": "Yusuke Endoh <mame@ruby-lang.org> (https://github.com/mame)"
+  "author": "Yusuke Endoh <mame@ruby-lang.org> (https://github.com/mame)",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
