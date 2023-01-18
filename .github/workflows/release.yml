@@ -15,10 +15,6 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run build
-      - run: |
-          echo @saukap:https://npm.pkg.github.com/ > out/.npmrc
-          echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> out/.npmrc
-      - run: cp ../package.json . && npm publish
-        working-directory: ./out
+      - run: npm publish
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
