@@ -1,12 +1,12 @@
 {
-  "name": "xterm-pty",
+  "name": "@saukap/xterm-pty",
   "description": "A pty for xterm.js and Emscripten",
   "version": "0.9.4",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mame/xterm-pty.git"
+    "url": "git+https://github.com/saukap/xterm-pty.git"
   },
   "license": "MIT",
   "scripts": {
@@ -39,9 +39,9 @@
     "webpack-cli": "^4.9.2"
   },
   "bugs": {
-    "url": "https://github.com/mame/xterm-pty/issues"
+    "url": "https://github.com/saukap/xterm-pty/issues"
   },
-  "homepage": "https://github.com/mame/xterm-pty#readme",
+  "homepage": "https://github.com/saukap/xterm-pty#readme",
   "keywords": [
     "xterm.js",
     "pty",
@@ -49,7 +49,7 @@
     "cooked mode",
     "emscripten"
   ],
-  "author": "Yusuke Endoh <mame@ruby-lang.org> (https://github.com/mame)",
+  "author": "Saurabh Kapoor <saurabh.kapoor@gmail.com> (https://github.com/saukap)",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
